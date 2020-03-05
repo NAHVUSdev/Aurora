@@ -1,0 +1,27 @@
+{
+  "name": "aurora",
+  "version": "0.0.1",
+  "description": "NAHVUS web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAHVUSdev/Aurora.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "git",
+    "html",
+    "css",
+    "node"
+  ],
+  "author": "NAHVUSdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAHVUSdev/Aurora/issues"
+  },
+  "homepage": "https://github.com/NAHVUSdev/Aurora#readme"
+}
