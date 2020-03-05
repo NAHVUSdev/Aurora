@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- PAGE DATA -->
     <meta charset="UTF-8">
-    <title>NAHVUS</title>
+    <title id="title">NAHVUS</title>
+    <!-- EXTERNAL IMPORTS -->
+    <link href="https://use.typekit.net/wxt4ubk.css" rel="stylesheet" type="text/css">
+    <!-- LOCAL IMPORTS -->
+    <link href="http://nahvus.com/global.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            position: relative;
+        }
+
+        #branding {
+            font-family: 'Cresta', sans-serif;
+            color: WHITE;
+            font-weight: 800;
+            font-size: 2vw;
+            margin-bottom: 0;
+        }
+
+        #message {
+            color: WHITE;
+            font-family: 'Cresta', sans-serif;
+        }
+
+        #mainContentWrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+    </style>
 </head>
 <body>
-<code>running</code>
+<div id="mainContentWrap">
+    <p id="branding">NAHVUS.</p>
+    <p id="message">We'll be right back.</p>
+</div>
 </body>
 </html>
