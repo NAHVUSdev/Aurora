@@ -18,6 +18,12 @@
     "css",
     "node"
   ],
+  "dependencies": {
+    "cookies-js": "^1.2.3",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.4"
+  },
   "author": "NAHVUSdev",
   "license": "ISC",
   "bugs": {
